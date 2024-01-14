@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+     <style>
+        table,th,td{
+            width: 500px;
+              height: 50px;
+              border: solid 2px;
+              border-collapse: collapse;
+              margin: auto;
+              padding-left: 20px;
+
+          }
+           h1{
+            margin-left: 620px;
+           }
+
+        
+          </style>
+<body>
+    <table>
+           <h1>Registration Form</h1>
+        <tr>
+            <th>Field</th>
+            <th>Details</th>
+        </tr>
+          <tr>
+            <td>Full name</td>
+                <td><input type="text" placeholder="full_name"></td>
+            
+           </tr>
+          <tr>
+                 <td>Address</td>
+                   <td><input type="text" placeholder="Streetaddress" maxlength="25" ></td>
+                 </tr>
+               <tr>
+            <td>Mobile</td>
+          <td><input type="number" placeholder="number" pattern="[0-9]{10}"></td>
+        </tr>
+    <tr>
+        <td>E-mail</td>
+            <td><input type="email" placeholder="email"></td>
+              </tr>
+           <tr>
+        <td>Country</td>
+            <td>
+               <select>
+                 <option value="choose">choose</option>
+                    <option value="India">india</option>
+                
+              </select>
+            </td>
+         </tr>
+            <tr>
+               <td>Skill Level</td>
+                 <td>
+                    <select name="skill level" id="">
+                        <option value="choose">choose</option>
+                        <option value="Undergraduate" >Undergraduate</option>
+                    <option value="Graduate">Graduate</option>
+                <option value="Post-graduate">Post-graduate</option>
+             <option value="Diploma/Technical">Diploma/Technical</option>
+          </select>
+       </td>
+     </tr>
+     
+
+    </table>
+</body>
+</html>
