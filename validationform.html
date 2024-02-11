@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validationform1</title>
+</head>
+<body>
+   
+      <script>
+
+         function validationform1(){
+            var name = document.getElementById("name").value;
+            var password = document.getElementById("password").value;
+         
+         if(name == null || name == ""){
+           document.getElementById("namespan").innerHTML = "please enter the value"
+           return false
+
+         }
+         else if(password.length<8){
+            document.getElementById("passspan").innerHTML = "password must be at least 8 character "
+            return false
+         }
+        }
+
+         function clearmsg(span){
+            document.getElementById(span)
+            .innerHTML = ""
+           
+         }
+
+
+
+
+        </script>
+
+<form name="myform" method="post" action="index.html" onsubmit="return validationform1()">
+    <label for="name">name:</label>
+    <input type="text" id="name" onkeyup="clearmsg('namespan')" >
+    <span id="namespan" style="color: red;" ></span><br><br> 
+
+    <label for="password">password:</label>
+    <input type="text" id="password" onkeyup="clearmsg('passspan')" >
+    <span id="passspan" style="color: red;" ></span><br><br>
+
+    <input type="submit" value="submit">
+     
+</form>
+
+
+
+</body>
+</html>
