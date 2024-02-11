@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        img{
+              width: 200px;
+              height: 150px;
+              border: solid 2px;
+              border-color: rgb(235, 21, 21);
+              border-radius: 10%;
+              
+              
+                   }
+        .container{
+            text-align: center;
+            margin-top: 200px;
+           
+            animation: move;
+            animation-timing-function: ease-in-out;
+            animation-duration: 4s;
+            animation-iteration-count:infinite;
+            animation-direction: alternate;
+            animation-delay: 2s;
+            
+              
+            
+        }
+
+
+
+        @keyframes move{
+
+          0%{  
+            transform: scale(1.5);
+          }
+          /* 25%{
+            transform: translateY(90px);  
+            
+            
+          } */
+          100%{
+            
+            transform: scaleX(0.10) translateY(90px);
+            
+          }
+
+        }
+
+
+
+
+    </style>
+
+
+<body>
+    <div class="container"><img src="ooty.jpg"></div>
+</body>
+</html>

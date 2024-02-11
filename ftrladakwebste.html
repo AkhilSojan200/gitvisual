@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="ladakwebsit.css">
+  </head>
+  <body>
+    <div class="top-navbar">
+      <div class="top-icons">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="other-links">
+      <button id="btn-login"><a href="login.html">login</a></button>
+      <button id="btn-signup">signup</button>
+      <i class="fa-solid fa-user"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+</div>
+</div>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fashion</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+       
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Destinations
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Leh Ladakh</a></li>
+                <li><a class="dropdown-item" href="#">Kashmir</a></li>
+                <li><a class="dropdown-item" href="#">Manali</a></li>
+                <li><a class="dropdown-item" href="#">Rajasthan</a></li>
+                 </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Activities
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Motor Biking</a></li>
+                <li><a class="dropdown-item" href="#">River Rafting</a></li>
+               </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Theme
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Leh Ladakh packages</a></li>
+                <li><a class="dropdown-item" href="#">College Tour</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                more+
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+             </ul>
+           
+            </li>
+          </ul>
+          </div>
+           <form class="d-flex" role="search">
+            <button type="button" title="pay now" class="pay-now">Pay Now </button>
+           <!-- <button type="button" title="Log in" class="log-in">Log In </a></button> -->
+                   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" style=" margin-right: 300px;
+height: 38px;
+width: 115px;
+color: white;
+background-color: limegreen;
+font-size: 18px;
+font-weight: 500;
+border-radius: 5px;
+border-color: white;" data-bs-target="#staticBackdrop1">
+  log In
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">LOG IN YOUR ACCOUNT</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <ul>
+        <li>Name
+        <input type="text"></li>
+        <li>Address
+        <input type="text"></li>
+        <li>phone number
+        <input type="number"></li>
+        <li>date of joining
+        <input type="month"></li>
+     
+       </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+           
+            
+          </form>
+       </div>
+    </nav>
+       <div class="header">
+        <div class="display flex">
+            <h1>Ladakh Tour Package</h1>
+           </div>
+           <body class="text-center" >
+            <div class="container">
+              <div class="row ms-5 mt-5">
+           <div class="card ms-3" style="width: 18rem;">
+            <img src="ladak1.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Ladakh SUV</h5>
+              <p class="card-text">Leh to Leh 4 days<br> $13250</p>
+              
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" style="margin-top: 24px;" data-bs-target="#staticBackdrop">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">ladakh</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Duration: 03 Nights and 04 Days
+
+        Highlights:
+        
+        Stay in Hotels for Solos, Couples, Friends, and Family with Breakfast and Dinner.
+        3 Nights and 4 Days
+        Local Sightseeing
+        Shey, Thiksey, and Hemis
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+            </div>
+          </div>
+          
+
+          <div class="card ms-3" style="width: 18rem;">
+            <img src="ladak2.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Ladakh SUV</h5>
+              <p class="card-text">Leh to leh 5 days with<br> nubra valley and pangong lake<br>$253113</p>
+             
+                   
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Nubra Valley</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Duration: 04 Nights and 05 Days
+
+Highlights:
+
+Stay in Hotels for Solos, Couples, Friends, and Family with Breakfast and Dinner.
+4 Nights and 5 Days
+Sightseeing in Nubra Valley and Pangong Tso
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+            </div>
+          </div>
+          <div class="card ms-3" style="width: 18rem;">
+            <img src="ladak3.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Ladakh SUV</h5>
+              <p class="card-text">leh to leh 6 days with <br>turtuk  village<br>$32812</p>
+              
+                   
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Prebooked hotels</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Stay in pre-booked hotels at Leh.
+Buffet Breakfast will be available from Day 2 till Day 7 and Buffet Dinner will be available from Day 1 till Day 6.
+Inner Line Permits for all the travelers.
+Private Taxi for all the sightseeing as per the itinerary.
+Leh Local Sightseeing
+Sightseeing at Nubra Valley, Turtuk Village, and Pangong Tso.
+Airport Pickup and Drop.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+            </div>
+          </div>
+          <div class="card ms-3" style="width: 18rem;">
+            <img src="ladak4.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Ladakh SUV</h5>
+              <p class="card-text">ladakh tour package-leh<br>to leh with turtuk  village|7 days<br>$22000</p>
+                   
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+  View Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Ground package</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Booking Amount: 30% of the total amount.
+46 Days or more before the Date of Travel – 25% of the Total Cost
+31 – 45 Days before date of departure – 50% of Total Cost
+30 Days before date of departure – 100% of Total Cost
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+   </div>
+          </div>
+          </div>
+           </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
